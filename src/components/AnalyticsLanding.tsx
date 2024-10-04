@@ -10,10 +10,12 @@ const AnalyticsLanding: React.FC = () => {
 
         <div className="gap-y-10	max-w-full">
           <div className="flex justify-center space-x-4 text-sm mb-8">
-            <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">New feature</span>
-            <a href="#" className="text-purple-800 hover:text-gray-900 flex items-center">
-              Check out the team dashboard <ArrowRight className="ml-1 h-4 w-4" />
-            </a>
+            <div className='w-fit flex justify-center p-1 items-center bg-purple-100 rounded-3xl border gap-2'>
+              <span className=" text-purple-800 bg-white px-3 py-1 rounded-full border">New feature</span>
+              <a href="#" className="text-purple-800 hover:text-gray-900 flex items-center">
+                Check out the team dashboard <ArrowRight className="ml-1 h-4 w-4" />
+              </a>
+              </div>
           </div>
 
           <h1 className="xl:text-7xl  text-4xl font-medium text-gray-900 leading-tight">
