@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Circle } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Logo from '../assets/Logomark.png'
 const Navigation: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
