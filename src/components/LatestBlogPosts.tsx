@@ -75,7 +75,7 @@ const LatestBlogPosts: React.FC = () => {
         <div className="flex justify-between items-center mb-8">
           <div>
             <h2 className="text-sm font-semibold text-purple-600 uppercase tracking-wide">Our blog</h2>
-            <h3 className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Latest blog posts</h3>
+            <h3 className="mt-2 text-3xl font-medium text-gray-900 sm:text-4xl">Latest blog posts</h3>
             <p className="mt-4 text-lg text-gray-500">
               Tools and strategies modern teams need to help their companies grow.
             </p>

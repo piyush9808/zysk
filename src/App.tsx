@@ -8,10 +8,11 @@ import Navigation from './components/Navigation'
 import AnalyticsLanding from './components/AnalyticsLanding'
 import LatestBlogPosts from './components/LatestBlogPosts'
 import CompanyLogos from './components/CompanyLogos'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen ">
       <Navigation/>
       <AnalyticsLanding />
       <CompanyLogos />
@@ -21,6 +22,7 @@ function App() {
       <FAQSection />
       <LatestBlogPosts />
       <StartFreeTrial /> 
+      <Footer/>
     </div>
   )
 }

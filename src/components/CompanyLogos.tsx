@@ -12,17 +12,17 @@ const CompanyLogos: React.FC = () => {
   ];
 
   return (
-    <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 pt-10">
+    <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 pt-36">
       <div className="max-w-8xl mx-auto">
         <h2 className="text-center text-gray-900  font-medium mb-8 text-2xl sm:text-md">
           Join 4,000+ companies already growing
         </h2>
 
-        <div className="grid grid-cols-2  md:grid-cols-6 lg:grid-cols-6 xl:px-24 ">
+        <div className="grid grid-cols-2 gap-10 md:grid-cols-6 lg:grid-cols-6 xl:px-24 ">
           {companies.map((company) => (
             <div key={company.name} className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
               <div className="flex items-center space-x-2">
-                <company.icon className={`xl:h-24 xl:w-24 sm:h-10 sm:w-10 ${company.color}`} />
+                <company.icon className={`xl:h-22 xl:w-22 sm:h-10 sm:w-10 ${company.color}`} />
                 <span className={`xl:text-xl sm:text-sm  font-semibold ${company.color}`}>{company.name}</span>
               </div>
             </div>

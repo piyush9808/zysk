@@ -44,11 +44,11 @@ const FeaturesSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white mt-16">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-sm font-semibold text-purple-600 uppercase tracking-wide">Features</h2>
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h3 className="mt-2 text-3xl leading-8 font-medium tracking-tight text-gray-900 sm:text-4xl">
             Analytics that feels like it's from the future
           </h3>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">

@@ -62,9 +62,10 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 w-full">
+
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">
+        <h2 className=" sm:text-3xl font-medium text-center text-gray-900 mb-2 xl:text-5xl">
           Frequently asked questions
         </h2>
         <p className="text-center text-gray-600 mb-8">
@@ -80,7 +81,8 @@ const FAQSection: React.FC = () => {
             />
           ))}
         </div>
-        <div className="mt-12 text-center bg-white p-8 rounded-lg shadow-sm">
+
+        <div className="mt-12 text-center bg-gray-100 p-8 rounded-lg shadow-sm w-full">
           <div className="flex justify-center mb-4">
             <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Team member 1" className="w-8 h-8 rounded-full -mr-2" />
             <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Team member 2" className="w-8 h-8 rounded-full -mr-2" />

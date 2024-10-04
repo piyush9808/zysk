@@ -16,7 +16,7 @@ const AnalyticsLanding: React.FC = () => {
             </a>
           </div>
 
-          <h1 className="lg:text-7xl sm:text-6xl font-medium text-gray-900 leading-tight">
+          <h1 className="xl:text-7xl  text-4xl font-medium text-gray-900 leading-tight">
             Beautiful analytics to grow smarter
           </h1>
           <p className="mt-8 text-xl text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl w-full">
@@ -24,7 +24,7 @@ const AnalyticsLanding: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-10">
+        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-10 px-10">
 
           <button className="flex items-center justify-center px-8 py-3 border border-gray-300 rounded-lg text-lg font-semibold text-gray-700 bg-white hover:bg-gray-50 transition duration-300">
             <Play className="mr-2 h-5 w-5" /> Demo
